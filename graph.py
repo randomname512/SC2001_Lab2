@@ -24,6 +24,7 @@ for i in vertex:
     plt.xlabel('Edges')
     plt.ylabel('Time')
     plt.legend()
-    plt.show()
     plt.savefig(f'{i}.png')
+    plt.show()
+
 
